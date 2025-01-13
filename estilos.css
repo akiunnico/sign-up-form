@@ -50,7 +50,7 @@ img{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .formulario>div{
-  padding: 2em;
+  padding: 1em;
 }
 .cuestionario{
   background-color: white;
@@ -61,7 +61,7 @@ img{
 }
 .blue1 p{
   font-weight: bold;
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
   padding-right: 3em;
   margin: 0;
 }
@@ -69,7 +69,7 @@ img{
   padding-top: 3em;
 }
 form>p{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-bottom: .5em;
   font-weight: 500;
 
@@ -86,7 +86,7 @@ form>p{
   font-size: .7rem;
 }
 .linea input{
-  height: 30px;
+  height: 1.6rem;
   width: 100%;
   margin-bottom: .5em;
   border: 1px solid rgb(184, 182, 182);
@@ -95,8 +95,9 @@ form>p{
 input:focus {
   border-color: blue;
   outline: none;
+  box-shadow: 1px 1px 1px;
 }
-input:invalid{
+input[type="password"]:invalid{
   border: 1px solid red;
 }
 button{
