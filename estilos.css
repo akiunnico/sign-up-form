@@ -1,0 +1,114 @@
+@font-face{
+  font-family: "Norse Bold";
+  src: url("assets/fonts/Norse-Bold.otf")
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #222;
+  
+}
+img{
+  height: 100%;
+}
+.container{
+    background-color: #eee;
+    max-width: 1000px;
+    display: flex;
+    height: 100vh;
+    margin: auto;
+}
+
+.imagen{
+  flex: 0 0 35%;
+  background-image: url("assets/images/scheliphron_caementarium.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  /* border: 2px solid black; */
+  background-color: rgba(10, 10, 10, 0.4);
+  margin-top: 35%;
+}
+.logo p{
+  font-family: "Norse Bold";
+  font-size: 5rem;
+  font-weight: bold;
+  color: #fff;
+}
+.formulario{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.formulario>div{
+  padding: 2em;
+}
+.cuestionario{
+  background-color: white;
+  box-shadow: 0px 4px 5px #aaa;
+}
+.blue1, .cuestionario{
+  height: 35vh;
+}
+.blue1 p{
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding-right: 3em;
+  margin: 0;
+}
+.blue1 p:first-of-type{
+  padding-top: 3em;
+}
+form>p{
+  font-size: 1.2rem;
+  margin-bottom: .5em;
+  font-weight: 500;
+
+}
+.linea{
+  display: flex;
+  gap: 20px;
+}
+.linea p{
+  flex: 0 0 45%;
+}
+.linea label{
+  display: block;
+  font-size: .7rem;
+}
+.linea input{
+  height: 30px;
+  width: 100%;
+  margin-bottom: .5em;
+  border: 1px solid rgb(184, 182, 182);
+  border-radius: 5px;
+}
+input:focus {
+  border-color: blue;
+  outline: none;
+}
+input:invalid{
+  border: 1px solid red;
+}
+button{
+  background-color: rgb(73, 122, 27);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  margin-bottom: 1em;
+}
+.blue2 a{
+  font-size: .9rem;
+  color: rgb(51, 50, 50);
+  text-decoration: none;
+}
